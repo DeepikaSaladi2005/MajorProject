@@ -1,0 +1,26 @@
+torch
+torchvision
+# Core ML / DL
+torch
+torchvision
+ultralytics
+
+# Flask web app
+flask
+
+# Image processing
+pillow
+opencv-python
+
+# PDF generation
+fpdf2
+
+# Progress bars
+tqdm
+
+# Data & ML
+pandas
+scikit-learn
+joblib
+
+#.\venv\Scripts\activate  

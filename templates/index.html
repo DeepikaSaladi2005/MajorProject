@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ _('FixMyRide - Damage Detection') }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        .container { max-width: 900px; margin: auto; }
+        form { text-align: left; background: #f9f9f9; padding: 20px; border-radius: 10px; }
+        label { display: block; margin-top: 10px; font-weight: bold; }
+        input, select, textarea, button { width: 100%; margin-top: 5px; padding: 8px; font-size: 14px; }
+        img { max-width: 100%; border-radius: 8px; margin-top: 10px; }
+        .result { margin-top: 20px; }
+        .comparison { display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; }
+        .comparison div { flex: 1 1 45%; }
+        h2 { margin-top: 20px; }
+        .severity-minor { color: green; font-weight: bold; }
+        .severity-moderate { color: orange; font-weight: bold; }
+        .severity-severe { color: red; font-weight: bold; }
+        .download-btn { margin-top: 15px; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; }
+        .download-btn:hover { background-color: #0056b3; }
+        .lang-select { text-align: right; margin-bottom: 15px; }
+    </style>
+    <script>
+        const brandModels = {
+            "HONDA": ["City", "Amaze", "WR-V", "Jazz", "HR-V", "Pilot", "CR-V", "Accord", "Civic"],
+            "MARUTI SUZUKI": ["Swift", "Baleno", "Vitara Brezza", "Wagon R", "Ertiga", "Grand Vitara"],
+            "TOYOTA": ["Corolla", "Camry", "Fortuner", "Innova", "Yaris"],
+            "HYUNDAI": ["i20", "Creta", "Verna", "Venue", "Tucson"],
+            "NISSAN": ["Altima", "Rogue", "Sentra", "Pathfinder", "Titan"],
+            "SKODA": ["Octavia", "Superb", "Rapid", "Kodiaq", "Karoq"]
+        };
+
+        function updateModels() {
+            const brandSelect = document.getElementById("brand");
+            const modelSelect = document.getElementById("model");
+            const selectedBrand = brandSelect.value;
+            modelSelect.innerHTML = "";
+            if (selectedBrand && brandModels[selectedBrand]) {
+                brandModels[selectedBrand].forEach(model => {
+                    const option = document.createElement("option");
+                    option.value = model;
+                    option.text = model;
+                    modelSelect.add(option);
+                });
+            }
+        }
+
+        function changeLanguage() {
+            const lang = document.getElementById("lang").value;
+            const url = new URL(window.location.href);
+            url.searchParams.set('lang', lang);
+            window.location.href = url.toString();
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-select">
+            <label for="lang">{{ _('Select Language') }}:</label>
+            <select id="lang" onchange="changeLanguage()">
+                <option value="en" {% if request.args.get('lang') == 'en' %}selected{% endif %}>English</option>
+                <option value="hi" {% if request.args.get('lang') == 'hi' %}selected{% endif %}>हिन्दी</option>
+                <option value="te" {% if request.args.get('lang') == 'te' %}selected{% endif %}>తెలుగు</option>
+            </select>
+        </div>
+
+        <h1>{{ _('🚗 FixMyRide - Vehicle Damage Detection') }}</h1>
+
+        <form method="post" enctype="multipart/form-data">
+            <input type="hidden" name="lang" value="{{ request.args.get('lang', 'en') }}">
+            <h2>{{ _('Upload Vehicle Image') }}</h2>
+            <label for="brand">{{ _('Select Car Brand:') }}</label>
+            <select id="brand" name="brand" onchange="updateModels()" required>
+                <option value="">{{ _('--Select Brand--') }}</option>
+                <option value="HONDA">HONDA</option>
+                <option value="MARUTI SUZUKI">MARUTI SUZUKI</option>
+                <option value="TOYOTA">TOYOTA</option>
+                <option value="HYUNDAI">HYUNDAI</option>
+                <option value="NISSAN">NISSAN</option>
+                <option value="SKODA">SKODA</option>
+            </select>
+
+            <label for="model">{{ _('Select Car Model:') }}</label>
+            <select id="model" name="model" required>
+                <option value="">{{ _('--Select Model--') }}</option>
+            </select>
+
+            <label for="file">{{ _('Upload Vehicle Image:') }}</label>
+            <input type="file" name="file" accept="image/*" required>
+
+            <button type="submit">{{ _('Upload & Analyze') }}</button>
+        </form>
+
+        {% if det_image %}
+        <div class="result">
+            <h2>{{ _('Detection Result & Damage Analysis') }}</h2>
+            <div class="comparison">
+                <div>
+                    <h3>{{ _('Original with Detection') }}</h3>
+                    <img src="{{ url_for('static', filename='results/' + det_image) }}" alt="Detection">
+                </div>
+                <div>
+                    <h3>{{ _('Damage Heatmap') }}</h3>
+                    <img src="{{ url_for('static', filename='results/' + heat_image) }}" alt="Heatmap">
+                </div>
+            </div>
+
+            <h2>{{ _('💰 Estimated Repair Cost: ₹') }}{{ cost }}</h2>
+            <h2>
+                {{ _('🔥 Predicted Severity:') }}
+                <span class="
+                    {% if severity == _('Minor') %}severity-minor
+                    {% elif severity == _('Moderate') %}severity-moderate
+                    {% elif severity == _('Severe') %}severity-severe
+                    {% endif %}">{{ severity }}</span>
+            </h2>
+            <h2>{{ _('📊 Severity Graph') }}</h2>
+            <img src="data:image/png;base64,{{ graph_img }}" alt="Severity Graph" />
+
+            <h2>{{ _('Fill in Details to Generate Insurance Claim PDF') }}</h2>
+            <form method="post" action="{{ url_for('generate_pdf') }}">
+                <input type="hidden" name="lang" value="{{ request.args.get('lang', 'en') }}">
+                <label for="name">{{ _('Full Name:') }}</label>
+                <input type="text" name="name" required>
+
+                <label for="address">{{ _('Address:') }}</label>
+                <textarea name="address" rows="3" required></textarea>
+
+                <label for="phone">{{ _('Phone:') }}</label>
+                <input type="text" name="phone" required>
+
+                <label for="email">{{ _('Email:') }}</label>
+                <input type="email" name="email" required>
+
+                <label for="policy_number">{{ _('Policy Number:') }}</label>
+                <input type="text" name="policy_number" required>
+
+                <label for="insurance_provider">{{ _('Insurance Provider:') }}</label>
+                <input type="text" name="insurance_provider" required>
+
+                <input type="hidden" name="car" value="{{ car }}">
+                <input type="hidden" name="model" value="{{ model }}">
+                <input type="hidden" name="registration_number" value="{{ reg_no }}">
+                <input type="hidden" name="body_part" value="{{ body_part }}">
+                <input type="hidden" name="severity" value="{{ severity }}">
+                <input type="hidden" name="cost" value="{{ cost }}">
+
+                <button type="submit" class="download-btn">{{ _('Download Insurance Claim PDF') }}</button>
+            </form>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

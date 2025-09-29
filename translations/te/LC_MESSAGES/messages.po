@@ -1,0 +1,522 @@
+# Telugu translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-09-29 09:30+0530\n"
+"PO-Revision-Date: 2025-09-29 09:45+0530\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: te <LL@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: app.py:36 templates/index.html:112
+msgid "Minor"
+msgstr "మైనర్"
+
+#: app.py:36 templates/index.html:113
+msgid "Moderate"
+msgstr "మితమైన"
+
+#: app.py:36 templates/index.html:114
+msgid "Severe"
+msgstr "తీవ్రమైన"
+
+#: app.py:76
+msgid "Probability"
+msgstr "సంభావ్యత"
+
+#: app.py:78 app.py:127
+msgid "Predicted Severity"
+msgstr "తీవ్రతను అంచనా వేసింది"
+
+#: app.py:94
+msgid "Insurance Claim Report"
+msgstr "భీమా దావా నివేదిక"
+
+#: app.py:98
+msgid "1. Policy Holder Information"
+msgstr "1. పాలసీ హోల్డర్ సమాచారం"
+
+#: app.py:101
+msgid "Name"
+msgstr "పేరు"
+
+#: app.py:102
+msgid "Phone"
+msgstr "ఫోన్"
+
+#: app.py:103
+msgid "Email"
+msgstr "ఇమెయిల్"
+
+#: app.py:104
+msgid "Address"
+msgstr "చిరునామా"
+
+#: app.py:109
+msgid "2. Insurance Details"
+msgstr "2. భీమా వివరాలు"
+
+#: app.py:111
+msgid "Policy Number"
+msgstr "విధాన సంఖ్య"
+
+#: app.py:112
+msgid "Insurance Provider"
+msgstr "భీమా ప్రొవైడర్"
+
+#: app.py:116
+msgid "3. Vehicle Information"
+msgstr "3. వాహన సమాచారం"
+
+#: app.py:118
+msgid "Car Brand"
+msgstr "కార్ బ్రాండ్"
+
+#: app.py:119
+msgid "Car Model"
+msgstr "కార్ మోడల్"
+
+#: app.py:120
+msgid "Registration Number"
+msgstr "నమోదు సంఖ్య"
+
+#: app.py:124
+msgid "4. Damage Assessment"
+msgstr "4. నష్టం అంచనా"
+
+#: app.py:126
+msgid "Damaged Part"
+msgstr "దెబ్బతిన్న భాగం"
+
+#: app.py:128
+msgid "Estimated Repair Cost"
+msgstr "మరమ్మత్తు ఖర్చు"
+
+#: app.py:154 app.py:157 app.py:205
+msgid "Unknown"
+msgstr "తెలియదు"
+
+#: app.py:192
+msgid "No file uploaded"
+msgstr "ఫైల్ అప్‌లోడ్ చేయబడలేదు"
+
+#: templates/index.html:4
+msgid "FixMyRide - Damage Detection"
+msgstr "Fixmyride - నష్టం గుర్తించడం"
+
+#: templates/index.html:59
+msgid "Select Language"
+msgstr "భాషను ఎంచుకోండి"
+
+#: templates/index.html:67
+msgid "🚗 FixMyRide - Vehicle Damage Detection"
+msgstr "🚗 fixmyride - వాహన నష్టం గుర్తించడం"
+
+#: templates/index.html:71
+msgid "Upload Vehicle Image"
+msgstr "వాహన చిత్రాన్ని అప్‌లోడ్ చేయండి"
+
+#: templates/index.html:72
+msgid "Select Car Brand:"
+msgstr "కార్ బ్రాండ్‌ను ఎంచుకోండి:"
+
+#: templates/index.html:74
+msgid "--Select Brand--"
+msgstr "-బ్రాండ్-ఎంపిక-"
+
+#: templates/index.html:83
+msgid "Select Car Model:"
+msgstr "కార్ మోడల్‌ను ఎంచుకోండి:"
+
+#: templates/index.html:85
+msgid "--Select Model--"
+msgstr "-ఎన్నుకోండి మోడల్-"
+
+#: templates/index.html:88
+msgid "Upload Vehicle Image:"
+msgstr "వాహన చిత్రాన్ని అప్‌లోడ్ చేయండి:"
+
+#: templates/index.html:91
+msgid "Upload & Analyze"
+msgstr "అప్‌లోడ్ & విశ్లేషించండి"
+
+#: templates/index.html:96
+msgid "Detection Result & Damage Analysis"
+msgstr "గుర్తింపు ఫలితం మరియు నష్టం విశ్లేషణ"
+
+#: templates/index.html:99
+msgid "Original with Detection"
+msgstr "గుర్తింపుతో అసలైనది"
+
+#: templates/index.html:103
+msgid "Damage Heatmap"
+msgstr "నష్టం హీట్ మ్యాప్"
+
+#: templates/index.html:108
+msgid "💰 Estimated Repair Cost: ₹"
+msgstr "Messies అంచనా వేసిన మరమ్మత్తు ఖర్చు: ₹"
+
+#: templates/index.html:110
+msgid "🔥 Predicted Severity:"
+msgstr "🔥 అంచనా వేసిన తీవ్రత:"
+
+#: templates/index.html:117
+msgid "📊 Severity Graph"
+msgstr "📊 తీవ్రత గ్రాఫ్"
+
+#: templates/index.html:120
+msgid "Fill in Details to Generate Insurance Claim PDF"
+msgstr "భీమా దావా PDF ను రూపొందించడానికి వివరాలను పూరించండి"
+
+#: templates/index.html:123
+msgid "Full Name:"
+msgstr "పూర్తి పేరు:"
+
+#: templates/index.html:126
+msgid "Address:"
+msgstr "చిరునామా:"
+
+#: templates/index.html:129
+msgid "Phone:"
+msgstr "ఫోన్:"
+
+#: templates/index.html:132
+msgid "Email:"
+msgstr "ఇమెయిల్:"
+
+#: templates/index.html:135
+msgid "Policy Number:"
+msgstr "విధాన సంఖ్య:"
+
+#: templates/index.html:138
+msgid "Insurance Provider:"
+msgstr "భీమా ప్రదాత:"
+
+#: templates/index.html:148
+msgid "Download Insurance Claim PDF"
+msgstr "భీమా దావా PDF ని డౌన్‌లోడ్ చేయండి"
+
+#: venv/Lib/site-packages/click/_termui_impl.py:600
+#, python-brace-format
+msgid "{editor}: Editing failed"
+msgstr "{ఎడిటర్}: ఎడిటింగ్ విఫలమైంది"
+
+#: venv/Lib/site-packages/click/_termui_impl.py:604
+#, python-brace-format
+msgid "{editor}: Editing failed: {e}"
+msgstr "{ఎడిటర్}: ఎడిటింగ్ విఫలమైంది: {ఇ}"
+
+#: venv/Lib/site-packages/click/core.py:1084
+#: venv/Lib/site-packages/click/core.py:1121
+#, python-brace-format
+msgid "{text} {deprecated_message}"
+msgstr "{టెక్స్ట్} {డీప్రికేటెడ్ సందేశం}"
+
+#: venv/Lib/site-packages/click/core.py:1140
+msgid "Options"
+msgstr "ఎంపికలు"
+
+#: venv/Lib/site-packages/click/core.py:1202
+#, python-brace-format
+msgid "Got unexpected extra argument ({args})"
+msgid_plural "Got unexpected extra arguments ({args})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/Lib/site-packages/click/core.py:1221
+#, python-brace-format
+msgid "DeprecationWarning: The command {name!r} is deprecated.{extra_message}"
+msgstr "Devecationwarning: {పేరు! R} ఆదేశం క్షీణించబడింది. {Extrance_message}"
+
+#: venv/Lib/site-packages/click/core.py:1405
+msgid "Aborted!"
+msgstr "గర్భస్రావం!"
+
+#: venv/Lib/site-packages/click/core.py:1779
+msgid "Commands"
+msgstr "ఆదేశాలు"
+
+#: venv/Lib/site-packages/click/core.py:1810
+msgid "Missing command."
+msgstr "కమాండ్ లేదు."
+
+#: venv/Lib/site-packages/click/core.py:1888
+#, python-brace-format
+msgid "No such command {name!r}."
+msgstr "అలాంటి ఆదేశం లేదు {పేరు! R}."
+
+#: venv/Lib/site-packages/click/core.py:2303
+msgid "Value must be an iterable."
+msgstr "విలువ తప్పనిసరిగా పునరావృతమై ఉండాలి."
+
+#: venv/Lib/site-packages/click/core.py:2324
+#, python-brace-format
+msgid "Takes {nargs} values but 1 was given."
+msgid_plural "Takes {nargs} values but {len} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/Lib/site-packages/click/core.py:2404
+#, python-brace-format
+msgid ""
+"DeprecationWarning: The {param_type} {name!r} is deprecated.{extra_message}"
+msgstr "DevecationWarning: {param_type} {name!"
+
+#: venv/Lib/site-packages/click/core.py:2807
+#, python-brace-format
+msgid "env var: {var}"
+msgstr "Env: {వాస్}"
+
+#: venv/Lib/site-packages/click/core.py:2810
+#, python-brace-format
+msgid "default: {default}"
+msgstr "డిఫాల్ట్: {డిఫాల్ట్}"
+
+#: venv/Lib/site-packages/click/core.py:2814
+msgid "required"
+msgstr "అవసరం"
+
+#: venv/Lib/site-packages/click/core.py:2870
+msgid "(dynamic)"
+msgstr "(డైనమిక్)"
+
+#: venv/Lib/site-packages/click/decorators.py:465
+#, python-format
+msgid "%(prog)s, version %(version)s"
+msgstr "%(ప్రోగ్) లు, వెర్షన్ %(వెర్షన్) లు"
+
+#: venv/Lib/site-packages/click/decorators.py:522
+msgid "Show the version and exit."
+msgstr "సంస్కరణ మరియు నిష్క్రమణను చూపించు."
+
+#: venv/Lib/site-packages/click/decorators.py:548
+msgid "Show this message and exit."
+msgstr "ఈ సందేశాన్ని చూపించి నిష్క్రమించండి."
+
+#: venv/Lib/site-packages/click/exceptions.py:50
+#: venv/Lib/site-packages/click/exceptions.py:89
+#, python-brace-format
+msgid "Error: {message}"
+msgstr "లోపం: {సందేశం}"
+
+#: venv/Lib/site-packages/click/exceptions.py:81
+#, python-brace-format
+msgid "Try '{command} {option}' for help."
+msgstr "సహాయం కోసం '{కమాండ్} {ఎంపిక}' ప్రయత్నించండి."
+
+#: venv/Lib/site-packages/click/exceptions.py:130
+#, python-brace-format
+msgid "Invalid value: {message}"
+msgstr "చెల్లని విలువ: {సందేశం}"
+
+#: venv/Lib/site-packages/click/exceptions.py:132
+#, python-brace-format
+msgid "Invalid value for {param_hint}: {message}"
+msgstr "{Param_hint for కోసం చెల్లని విలువ: {సందేశం}"
+
+#: venv/Lib/site-packages/click/exceptions.py:190
+msgid "Missing argument"
+msgstr "తప్పిపోయిన వాదన"
+
+#: venv/Lib/site-packages/click/exceptions.py:192
+msgid "Missing option"
+msgstr "ఎంపిక లేదు"
+
+#: venv/Lib/site-packages/click/exceptions.py:194
+msgid "Missing parameter"
+msgstr "తప్పిపోయిన పరామితి"
+
+#: venv/Lib/site-packages/click/exceptions.py:196
+#, python-brace-format
+msgid "Missing {param_type}"
+msgstr "లేదు {param_type}"
+
+#: venv/Lib/site-packages/click/exceptions.py:203
+#, python-brace-format
+msgid "Missing parameter: {param_name}"
+msgstr "తప్పిపోయిన పరామితి: {param_name}"
+
+#: venv/Lib/site-packages/click/exceptions.py:223
+#, python-brace-format
+msgid "No such option: {name}"
+msgstr "అటువంటి ఎంపిక లేదు: {పేరు}"
+
+#: venv/Lib/site-packages/click/exceptions.py:235
+#, python-brace-format
+msgid "Did you mean {possibility}?"
+msgid_plural "(Possible options: {possibilities})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/Lib/site-packages/click/exceptions.py:282
+msgid "unknown error"
+msgstr "తెలియని లోపం"
+
+#: venv/Lib/site-packages/click/exceptions.py:289
+#, python-brace-format
+msgid "Could not open file {filename!r}: {message}"
+msgstr "ఫైల్ {ఫైల్ పేరు తెరవలేదు! R}: {సందేశం}"
+
+#: venv/Lib/site-packages/click/formatting.py:156
+msgid "Usage:"
+msgstr "ఉపయోగం:"
+
+#: venv/Lib/site-packages/click/parser.py:200
+#, python-brace-format
+msgid "Argument {name!r} takes {nargs} values."
+msgstr "ఆర్గ్యుమెంట్ {పేరు! R} {nargs} విలువలను తీసుకుంటుంది."
+
+#: venv/Lib/site-packages/click/parser.py:383
+#, python-brace-format
+msgid "Option {name!r} does not take a value."
+msgstr "ఎంపిక {పేరు! R that విలువను తీసుకోదు."
+
+#: venv/Lib/site-packages/click/parser.py:444
+#, python-brace-format
+msgid "Option {name!r} requires an argument."
+msgid_plural "Option {name!r} requires {nargs} arguments."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/Lib/site-packages/click/shell_completion.py:326
+msgid "Shell completion is not supported for Bash versions older than 4.4."
+msgstr "4.4 కన్నా పాత బాష్ వెర్షన్లకు షెల్ పూర్తి మద్దతు లేదు."
+
+#: venv/Lib/site-packages/click/shell_completion.py:333
+msgid "Couldn't detect Bash version, shell completion is not supported."
+msgstr "బాష్ సంస్కరణను గుర్తించలేకపోయారు, షెల్ పూర్తి చేయడానికి మద్దతు లేదు."
+
+#: venv/Lib/site-packages/click/termui.py:162
+msgid "Repeat for confirmation"
+msgstr "నిర్ధారణ కోసం పునరావృతం చేయండి"
+
+#: venv/Lib/site-packages/click/termui.py:178
+msgid "Error: The value you entered was invalid."
+msgstr "లోపం: మీరు నమోదు చేసిన విలువ చెల్లదు."
+
+#: venv/Lib/site-packages/click/termui.py:180
+#, python-brace-format
+msgid "Error: {e.message}"
+msgstr "లోపం: {e.message}"
+
+#: venv/Lib/site-packages/click/termui.py:191
+msgid "Error: The two entered values do not match."
+msgstr "లోపం: నమోదు చేసిన రెండు విలువలు సరిపోలలేదు."
+
+#: venv/Lib/site-packages/click/termui.py:247
+msgid "Error: invalid input"
+msgstr "లోపం: చెల్లని ఇన్పుట్"
+
+#: venv/Lib/site-packages/click/termui.py:866
+msgid "Press any key to continue..."
+msgstr "కొనసాగించడానికి ఏదైనా కీని నొక్కండి ..."
+
+#: venv/Lib/site-packages/click/types.py:332
+#, python-brace-format
+msgid ""
+"Choose from:\n"
+"\t{choices}"
+msgstr ""
+"నుండి ఎంచుకోండి:\n"
+"{ఎంపికలు}"
+
+#: venv/Lib/site-packages/click/types.py:369
+#, python-brace-format
+msgid "{value!r} is not {choice}."
+msgid_plural "{value!r} is not one of {choices}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/Lib/site-packages/click/types.py:460
+#, python-brace-format
+msgid "{value!r} does not match the format {format}."
+msgid_plural "{value!r} does not match the formats {formats}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/Lib/site-packages/click/types.py:482
+#, python-brace-format
+msgid "{value!r} is not a valid {number_type}."
+msgstr "{విలువ! R} చెల్లుబాటు అయ్యే {number_type} కాదు."
+
+#: venv/Lib/site-packages/click/types.py:538
+#, python-brace-format
+msgid "{value} is not in the range {range}."
+msgstr "{విలువ grand పరిధి} పరిధిలో లేదు."
+
+#: venv/Lib/site-packages/click/types.py:679
+#, python-brace-format
+msgid "{value!r} is not a valid boolean."
+msgstr "{విలువ! R} చెల్లుబాటు అయ్యే బూలియన్ కాదు."
+
+#: venv/Lib/site-packages/click/types.py:703
+#, python-brace-format
+msgid "{value!r} is not a valid UUID."
+msgstr "{విలువ! R} చెల్లుబాటు అయ్యే UUID కాదు."
+
+#: venv/Lib/site-packages/click/types.py:893
+msgid "file"
+msgstr "ఫైల్"
+
+#: venv/Lib/site-packages/click/types.py:895
+msgid "directory"
+msgstr "డైరెక్టరీ"
+
+#: venv/Lib/site-packages/click/types.py:897
+msgid "path"
+msgstr "మార్గం"
+
+#: venv/Lib/site-packages/click/types.py:944
+#, python-brace-format
+msgid "{name} {filename!r} does not exist."
+msgstr "{పేరు} {ఫైల్ పేరు! R} ఉనికిలో లేదు."
+
+#: venv/Lib/site-packages/click/types.py:953
+#, python-brace-format
+msgid "{name} {filename!r} is a file."
+msgstr "{పేరు} {ఫైల్ పేరు! R} ఒక ఫైల్."
+
+#: venv/Lib/site-packages/click/types.py:961
+#, python-brace-format
+msgid "{name} {filename!r} is a directory."
+msgstr "{పేరు} {ఫైల్ పేరు! R} అనేది డైరెక్టరీ."
+
+#: venv/Lib/site-packages/click/types.py:970
+#, python-brace-format
+msgid "{name} {filename!r} is not readable."
+msgstr "{పేరు} {ఫైల్ పేరు! R} చదవగలిగేది కాదు."
+
+#: venv/Lib/site-packages/click/types.py:979
+#, python-brace-format
+msgid "{name} {filename!r} is not writable."
+msgstr "{పేరు} {ఫైల్ పేరు! R} వ్రాయబడదు."
+
+#: venv/Lib/site-packages/click/types.py:988
+#, python-brace-format
+msgid "{name} {filename!r} is not executable."
+msgstr "{పేరు} {ఫైల్ పేరు! R} ఎగ్జిక్యూటబుల్ కాదు."
+
+#: venv/Lib/site-packages/click/types.py:1055
+#, python-brace-format
+msgid "{len_type} values are required, but {len_value} was given."
+msgid_plural "{len_type} values are required, but {len_value} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/Lib/site-packages/sympy/solvers/simplex.py:563
+msgid "x"
+msgstr "x"
+
+#: venv/Lib/site-packages/sympy/solvers/simplex.py:564
+msgid "y"
+msgstr "y"

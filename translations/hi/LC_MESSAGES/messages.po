@@ -1,0 +1,523 @@
+# Hindi translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-09-29 09:30+0530\n"
+"PO-Revision-Date: 2025-09-29 09:45+0530\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: hi <LL@li.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: app.py:36 templates/index.html:112
+msgid "Minor"
+msgstr "नाबालिग"
+
+#: app.py:36 templates/index.html:113
+msgid "Moderate"
+msgstr "मध्यम"
+
+#: app.py:36 templates/index.html:114
+msgid "Severe"
+msgstr "गंभीर"
+
+#: app.py:76
+msgid "Probability"
+msgstr "संभावना"
+
+#: app.py:78 app.py:127
+msgid "Predicted Severity"
+msgstr "गंभीरता की भविष्यवाणी की"
+
+#: app.py:94
+msgid "Insurance Claim Report"
+msgstr "बीमा दावा रिपोर्ट"
+
+#: app.py:98
+msgid "1. Policy Holder Information"
+msgstr "1। नीति धारक की जानकारी"
+
+#: app.py:101
+msgid "Name"
+msgstr "नाम"
+
+#: app.py:102
+msgid "Phone"
+msgstr "फ़ोन"
+
+#: app.py:103
+msgid "Email"
+msgstr "ईमेल"
+
+#: app.py:104
+msgid "Address"
+msgstr "पता"
+
+#: app.py:109
+msgid "2. Insurance Details"
+msgstr "2। बीमा विवरण"
+
+#: app.py:111
+msgid "Policy Number"
+msgstr "नीति संख्या"
+
+#: app.py:112
+msgid "Insurance Provider"
+msgstr "बीमा प्रदाता"
+
+#: app.py:116
+msgid "3. Vehicle Information"
+msgstr "3। वाहन की जानकारी"
+
+#: app.py:118
+msgid "Car Brand"
+msgstr "कार की छाप"
+
+#: app.py:119
+msgid "Car Model"
+msgstr "कार मॉडल"
+
+#: app.py:120
+msgid "Registration Number"
+msgstr "पंजीकरण संख्या"
+
+#: app.py:124
+msgid "4. Damage Assessment"
+msgstr "4। क्षति मूल्यांकन"
+
+#: app.py:126
+msgid "Damaged Part"
+msgstr "क्षतिग्रस्त भाग"
+
+#: app.py:128
+msgid "Estimated Repair Cost"
+msgstr "अनुमानित मरम्मत लागत"
+
+#: app.py:154 app.py:157 app.py:205
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: app.py:192
+msgid "No file uploaded"
+msgstr "कोई फ़ाइल अपलोड नहीं की गई"
+
+#: templates/index.html:4
+msgid "FixMyRide - Damage Detection"
+msgstr "FixMyride - क्षति का पता लगाना"
+
+#: templates/index.html:59
+msgid "Select Language"
+msgstr "भाषा चुने"
+
+#: templates/index.html:67
+msgid "🚗 FixMyRide - Vehicle Damage Detection"
+msgstr "🚗 FixMyride - वाहन क्षति का पता लगाना"
+
+#: templates/index.html:71
+msgid "Upload Vehicle Image"
+msgstr "वाहन छवि अपलोड करें"
+
+#: templates/index.html:72
+msgid "Select Car Brand:"
+msgstr "कार ब्रांड का चयन करें:"
+
+#: templates/index.html:74
+msgid "--Select Brand--"
+msgstr "-चयन ब्रांड--"
+
+#: templates/index.html:83
+msgid "Select Car Model:"
+msgstr "कार मॉडल का चयन करें:"
+
+#: templates/index.html:85
+msgid "--Select Model--"
+msgstr "-चयन मॉडल--"
+
+#: templates/index.html:88
+msgid "Upload Vehicle Image:"
+msgstr "वाहन छवि अपलोड करें:"
+
+#: templates/index.html:91
+msgid "Upload & Analyze"
+msgstr "अपलोड और विश्लेषण करें"
+
+#: templates/index.html:96
+msgid "Detection Result & Damage Analysis"
+msgstr "परिणाम और क्षति विश्लेषण का पता लगाना"
+
+#: templates/index.html:99
+msgid "Original with Detection"
+msgstr "पता लगाने के साथ मूल"
+
+#: templates/index.html:103
+msgid "Damage Heatmap"
+msgstr "नुकसान हीटमैप"
+
+#: templates/index.html:108
+msgid "💰 Estimated Repair Cost: ₹"
+msgstr "💰 अनुमानित मरम्मत लागत: ₹"
+
+#: templates/index.html:110
+msgid "🔥 Predicted Severity:"
+msgstr "🔥 भविष्यवाणी की गई गंभीरता:"
+
+#: templates/index.html:117
+msgid "📊 Severity Graph"
+msgstr "📊 गंभीरता ग्राफ"
+
+#: templates/index.html:120
+msgid "Fill in Details to Generate Insurance Claim PDF"
+msgstr "बीमा दावा पीडीएफ उत्पन्न करने के लिए विवरण भरें"
+
+#: templates/index.html:123
+msgid "Full Name:"
+msgstr "पूरा नाम:"
+
+#: templates/index.html:126
+msgid "Address:"
+msgstr "पता:"
+
+#: templates/index.html:129
+msgid "Phone:"
+msgstr "फ़ोन:"
+
+#: templates/index.html:132
+msgid "Email:"
+msgstr "ईमेल:"
+
+#: templates/index.html:135
+msgid "Policy Number:"
+msgstr "नीति संख्या:"
+
+#: templates/index.html:138
+msgid "Insurance Provider:"
+msgstr "बीमा प्रदाता:"
+
+#: templates/index.html:148
+msgid "Download Insurance Claim PDF"
+msgstr "डाउनलोड बीमा दावा पीडीएफ"
+
+#: venv/Lib/site-packages/click/_termui_impl.py:600
+#, python-brace-format
+msgid "{editor}: Editing failed"
+msgstr "{संपादक}: संपादन विफल"
+
+#: venv/Lib/site-packages/click/_termui_impl.py:604
+#, python-brace-format
+msgid "{editor}: Editing failed: {e}"
+msgstr "{संपादक}: संपादन विफल: {ई}"
+
+#: venv/Lib/site-packages/click/core.py:1084
+#: venv/Lib/site-packages/click/core.py:1121
+#, python-brace-format
+msgid "{text} {deprecated_message}"
+msgstr "{पाठ} {पदावनत संदेश}"
+
+#: venv/Lib/site-packages/click/core.py:1140
+msgid "Options"
+msgstr "विकल्प"
+
+#: venv/Lib/site-packages/click/core.py:1202
+#, python-brace-format
+msgid "Got unexpected extra argument ({args})"
+msgid_plural "Got unexpected extra arguments ({args})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/Lib/site-packages/click/core.py:1221
+#, python-brace-format
+msgid "DeprecationWarning: The command {name!r} is deprecated.{extra_message}"
+msgstr "पदावनति: कमांड {नाम! R} पदावनत है। {Extray_message}"
+
+#: venv/Lib/site-packages/click/core.py:1405
+msgid "Aborted!"
+msgstr "गर्भपात!"
+
+#: venv/Lib/site-packages/click/core.py:1779
+msgid "Commands"
+msgstr "आदेश"
+
+#: venv/Lib/site-packages/click/core.py:1810
+msgid "Missing command."
+msgstr "लापता आज्ञा।"
+
+#: venv/Lib/site-packages/click/core.py:1888
+#, python-brace-format
+msgid "No such command {name!r}."
+msgstr "ऐसी कोई कमांड {नाम! R} नहीं।"
+
+#: venv/Lib/site-packages/click/core.py:2303
+msgid "Value must be an iterable."
+msgstr "मूल्य एक iterable होना चाहिए।"
+
+#: venv/Lib/site-packages/click/core.py:2324
+#, python-brace-format
+msgid "Takes {nargs} values but 1 was given."
+msgid_plural "Takes {nargs} values but {len} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/Lib/site-packages/click/core.py:2404
+#, python-brace-format
+msgid ""
+"DeprecationWarning: The {param_type} {name!r} is deprecated.{extra_message}"
+msgstr "पदावनति: {param_type} {नाम! R} पदावनत है। {Extray_message}"
+
+#: venv/Lib/site-packages/click/core.py:2807
+#, python-brace-format
+msgid "env var: {var}"
+msgstr "Env था: {था}"
+
+#: venv/Lib/site-packages/click/core.py:2810
+#, python-brace-format
+msgid "default: {default}"
+msgstr "डिफ़ॉल्ट: {डिफ़ॉल्ट}"
+
+#: venv/Lib/site-packages/click/core.py:2814
+msgid "required"
+msgstr "आवश्यक"
+
+#: venv/Lib/site-packages/click/core.py:2870
+msgid "(dynamic)"
+msgstr "(गतिशील)"
+
+#: venv/Lib/site-packages/click/decorators.py:465
+#, python-format
+msgid "%(prog)s, version %(version)s"
+msgstr "%(prog) s, संस्करण %(संस्करण) s"
+
+#: venv/Lib/site-packages/click/decorators.py:522
+msgid "Show the version and exit."
+msgstr "संस्करण दिखाएं और बाहर निकलें।"
+
+#: venv/Lib/site-packages/click/decorators.py:548
+msgid "Show this message and exit."
+msgstr "इस संदेश को दिखाएं और बाहर निकलें।"
+
+#: venv/Lib/site-packages/click/exceptions.py:50
+#: venv/Lib/site-packages/click/exceptions.py:89
+#, python-brace-format
+msgid "Error: {message}"
+msgstr "त्रुटि संदेश}"
+
+#: venv/Lib/site-packages/click/exceptions.py:81
+#, python-brace-format
+msgid "Try '{command} {option}' for help."
+msgstr "मदद के लिए '{कमांड} {विकल्प}' का प्रयास करें।"
+
+#: venv/Lib/site-packages/click/exceptions.py:130
+#, python-brace-format
+msgid "Invalid value: {message}"
+msgstr "अमान्य मान: {संदेश}"
+
+#: venv/Lib/site-packages/click/exceptions.py:132
+#, python-brace-format
+msgid "Invalid value for {param_hint}: {message}"
+msgstr "{Param_hint} के लिए अमान्य मान: {संदेश}"
+
+#: venv/Lib/site-packages/click/exceptions.py:190
+msgid "Missing argument"
+msgstr "लापता तर्क"
+
+#: venv/Lib/site-packages/click/exceptions.py:192
+msgid "Missing option"
+msgstr "गुम विकल्प"
+
+#: venv/Lib/site-packages/click/exceptions.py:194
+msgid "Missing parameter"
+msgstr "लापता पैरामीटर"
+
+#: venv/Lib/site-packages/click/exceptions.py:196
+#, python-brace-format
+msgid "Missing {param_type}"
+msgstr "गुम {param_type}"
+
+#: venv/Lib/site-packages/click/exceptions.py:203
+#, python-brace-format
+msgid "Missing parameter: {param_name}"
+msgstr "गुम पैरामीटर: {param_name}"
+
+#: venv/Lib/site-packages/click/exceptions.py:223
+#, python-brace-format
+msgid "No such option: {name}"
+msgstr "ऐसा कोई विकल्प नहीं: {नाम}"
+
+#: venv/Lib/site-packages/click/exceptions.py:235
+#, python-brace-format
+msgid "Did you mean {possibility}?"
+msgid_plural "(Possible options: {possibilities})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/Lib/site-packages/click/exceptions.py:282
+msgid "unknown error"
+msgstr "अज्ञात त्रुटि"
+
+#: venv/Lib/site-packages/click/exceptions.py:289
+#, python-brace-format
+msgid "Could not open file {filename!r}: {message}"
+msgstr "फ़ाइल नहीं खोल सका {फ़ाइल नाम! R}: {संदेश}"
+
+#: venv/Lib/site-packages/click/formatting.py:156
+msgid "Usage:"
+msgstr "उपयोग:"
+
+#: venv/Lib/site-packages/click/parser.py:200
+#, python-brace-format
+msgid "Argument {name!r} takes {nargs} values."
+msgstr "तर्क {नाम! R} {nargs} मान लेता है।"
+
+#: venv/Lib/site-packages/click/parser.py:383
+#, python-brace-format
+msgid "Option {name!r} does not take a value."
+msgstr "विकल्प {नाम! R} कोई मान नहीं लेता है।"
+
+#: venv/Lib/site-packages/click/parser.py:444
+#, python-brace-format
+msgid "Option {name!r} requires an argument."
+msgid_plural "Option {name!r} requires {nargs} arguments."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/Lib/site-packages/click/shell_completion.py:326
+msgid "Shell completion is not supported for Bash versions older than 4.4."
+msgstr "शेल समापन 4.4 से पुराने बैश संस्करणों के लिए समर्थित नहीं है।"
+
+#: venv/Lib/site-packages/click/shell_completion.py:333
+msgid "Couldn't detect Bash version, shell completion is not supported."
+msgstr ""
+"बैश संस्करण का पता नहीं लगा सका, शेल पूरा होने का समर्थन नहीं किया गया है।"
+
+#: venv/Lib/site-packages/click/termui.py:162
+msgid "Repeat for confirmation"
+msgstr "पुष्टि के लिए दोहराएं"
+
+#: venv/Lib/site-packages/click/termui.py:178
+msgid "Error: The value you entered was invalid."
+msgstr "त्रुटि: आपके द्वारा दर्ज किया गया मान अमान्य था।"
+
+#: venv/Lib/site-packages/click/termui.py:180
+#, python-brace-format
+msgid "Error: {e.message}"
+msgstr "त्रुटि: {e.message}"
+
+#: venv/Lib/site-packages/click/termui.py:191
+msgid "Error: The two entered values do not match."
+msgstr "त्रुटि: दो दर्ज किए गए मान मेल नहीं खाते हैं।"
+
+#: venv/Lib/site-packages/click/termui.py:247
+msgid "Error: invalid input"
+msgstr "त्रुटि: अमान्य इनपुट"
+
+#: venv/Lib/site-packages/click/termui.py:866
+msgid "Press any key to continue..."
+msgstr "जारी रखने के लिए किसी भी कुंजी को दबाएं..."
+
+#: venv/Lib/site-packages/click/types.py:332
+#, python-brace-format
+msgid ""
+"Choose from:\n"
+"\t{choices}"
+msgstr ""
+"से चुनें:\n"
+"{विकल्प}"
+
+#: venv/Lib/site-packages/click/types.py:369
+#, python-brace-format
+msgid "{value!r} is not {choice}."
+msgid_plural "{value!r} is not one of {choices}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/Lib/site-packages/click/types.py:460
+#, python-brace-format
+msgid "{value!r} does not match the format {format}."
+msgid_plural "{value!r} does not match the formats {formats}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/Lib/site-packages/click/types.py:482
+#, python-brace-format
+msgid "{value!r} is not a valid {number_type}."
+msgstr "{मान! r} एक मान्य {number_type} नहीं है।"
+
+#: venv/Lib/site-packages/click/types.py:538
+#, python-brace-format
+msgid "{value} is not in the range {range}."
+msgstr "{मान} रेंज {रेंज} में नहीं है।"
+
+#: venv/Lib/site-packages/click/types.py:679
+#, python-brace-format
+msgid "{value!r} is not a valid boolean."
+msgstr "{मान! R} एक मान्य बूलियन नहीं है।"
+
+#: venv/Lib/site-packages/click/types.py:703
+#, python-brace-format
+msgid "{value!r} is not a valid UUID."
+msgstr "{मान! R} एक मान्य UUID नहीं है।"
+
+#: venv/Lib/site-packages/click/types.py:893
+msgid "file"
+msgstr "फ़ाइल"
+
+#: venv/Lib/site-packages/click/types.py:895
+msgid "directory"
+msgstr "निर्देशिका"
+
+#: venv/Lib/site-packages/click/types.py:897
+msgid "path"
+msgstr "पथ"
+
+#: venv/Lib/site-packages/click/types.py:944
+#, python-brace-format
+msgid "{name} {filename!r} does not exist."
+msgstr "{नाम} {फ़ाइल नाम! r} मौजूद नहीं है।"
+
+#: venv/Lib/site-packages/click/types.py:953
+#, python-brace-format
+msgid "{name} {filename!r} is a file."
+msgstr "{नाम} {FileName! R} एक फ़ाइल है।"
+
+#: venv/Lib/site-packages/click/types.py:961
+#, python-brace-format
+msgid "{name} {filename!r} is a directory."
+msgstr "{नाम} {फ़ाइल नाम! r} एक निर्देशिका है।"
+
+#: venv/Lib/site-packages/click/types.py:970
+#, python-brace-format
+msgid "{name} {filename!r} is not readable."
+msgstr "{नाम} {फ़ाइल नाम! r} पठनीय नहीं है।"
+
+#: venv/Lib/site-packages/click/types.py:979
+#, python-brace-format
+msgid "{name} {filename!r} is not writable."
+msgstr "{नाम} {फ़ाइल नाम! r} लेखन योग्य नहीं है।"
+
+#: venv/Lib/site-packages/click/types.py:988
+#, python-brace-format
+msgid "{name} {filename!r} is not executable."
+msgstr "{नाम} {फ़ाइल नाम! r} निष्पादन योग्य नहीं है।"
+
+#: venv/Lib/site-packages/click/types.py:1055
+#, python-brace-format
+msgid "{len_type} values are required, but {len_value} was given."
+msgid_plural "{len_type} values are required, but {len_value} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/Lib/site-packages/sympy/solvers/simplex.py:563
+msgid "x"
+msgstr "एक्स"
+
+#: venv/Lib/site-packages/sympy/solvers/simplex.py:564
+msgid "y"
+msgstr "y"

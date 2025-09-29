@@ -1,0 +1,21 @@
+# Ignore dataset
+VehiDE_Dataset/
+dataset_yolo
+# Ignore Python virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
